@@ -1,11 +1,14 @@
 package com.company;
 
-public class Main {
+ class abc {
 
     public static void main(String[] args) {
-	int a=5,b=10,s;
-    s=a+b;
-        System.out.println("sum="+s);
+	int a=5,b=10,s,m,d,c;
+	    m=a*b;
+	    d=b/a;
+   	     s=a+b;
+		c=b-a;	
+        System.out.println("sum= product= quotient= difference= "+s +m +d +c);
 
 
     }
